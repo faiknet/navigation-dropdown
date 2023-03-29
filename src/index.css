@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .imageDropdown {
+      @apply mr-4 mb-1;
+    }
+    .textDropdown {
+        @apply flex items-center;
+    }
+    .navbar {
+      @apply ml-8;
+    }
+  }
